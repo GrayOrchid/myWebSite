@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Gilroy-Bold';
-	src: url('styles/fonts/Gilroy-Bold.woff');
+	src: url('fonts/Gilroy-Bold.woff');
 }
 
 @font-face {
 	font-family: 'Gilroy-Medium';
-	src: url('styles/fonts/Gilroy-Medium.woff');
+	src: url('fonts/Gilroy-Medium.woff');
 }
 html {
 	scroll-behavior: smooth;
