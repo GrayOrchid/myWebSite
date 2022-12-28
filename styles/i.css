@@ -325,11 +325,13 @@ html {
 	width: 190px;
 	border: none;
 	cursor: pointer;
-	color: white;
 	background: black;
 	border-radius: 50px;
+}
+.footer--contant-phone {
 	font-size: 18px;
 	line-height: 22px;
+	color: white;
 }
 
 .footer--contacts {
