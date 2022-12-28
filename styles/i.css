@@ -266,21 +266,6 @@ html {
 	color: #828282;
 }
 
-.skills--levels {
-}
-
-.skills--level {
-}
-
-.fa-sharp {
-}
-
-.fa-solid {
-}
-
-.fa-star {
-}
-
 .protfolio {
 	background-color: #f6f6f6;
 	text-align: center;
@@ -348,32 +333,25 @@ html {
 }
 
 .footer--contacts {
-	width: 40%;
+	width: 25%;
 	display: flex;
 	justify-content: space-around;
-	margin-top: 100px;
 }
 
 .footer--contact {
 	font-size: 50px;
 }
-
-.fa-brands {
+.footer--contact-link {
+	transition: 0.4s;
 }
-
-.fa-linkedin-in {
+.footer--contact-link:hover {
+	transform: translateY(-10%);
 }
-
-.footer--contact-links {
+.fa-telegram:hover {
+	color: #0088cc;
 }
-
-.fa-instagram {
-}
-
-.fa-telegram {
-}
-
-.fa-vk {
+.fa-vk:hover {
+	color: #5181b8;
 }
 
 .menu {
@@ -418,9 +396,6 @@ html {
 
 	.__container {
 		width: 80%;
-	}
-
-	.section {
 	}
 
 	.homepage--img {
@@ -497,7 +472,7 @@ html {
 	}
 
 	.footer--contact {
-		font-size: 25px;
+		font-size: 40px;
 	}
 
 	.subtitle {
