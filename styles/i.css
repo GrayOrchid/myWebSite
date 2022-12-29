@@ -141,7 +141,6 @@ html {
 	width: 175px;
 	font-size: 18px;
 	line-height: 22px;
-	/* word-break: strict; */
 }
 
 .homepage--language-switch--btns {
@@ -212,8 +211,9 @@ html {
 .subtitle {
 	width: 60%;
 	font-family: 'Gilroy-Medium';
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
+	/* border: 1px red solid; */
 }
 
 .skills {
