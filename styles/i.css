@@ -138,9 +138,10 @@ html {
 .homepage--subtitle {
 	font-family: 'Gilroy-Medium';
 	font-weight: 500;
-	width: 155px;
+	width: 175px;
 	font-size: 18px;
 	line-height: 22px;
+	/* word-break: strict; */
 }
 
 .homepage--language-switch--btns {
@@ -410,6 +411,9 @@ html {
 		align-items: flex-start;
 		margin-top: 50px;
 	}
+	.homepage--subtitle {
+		width: 55%;
+	}
 
 	.homepage--language-switch--btns {
 		display: none;
@@ -495,13 +499,14 @@ html {
 	.menu {
 		visibility: hidden;
 		width: 100%;
-		height: 100%;
+		height: 100vh;
 		background: white;
-		position: absolute;
+		position: fixed;
 		z-index: 22;
 		display: initial;
 		transform: translateX(-100%);
 		transition: 0.2s;
+		overflow: hidden;
 	}
 
 	.--menu-active {
