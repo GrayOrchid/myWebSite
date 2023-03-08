@@ -22,9 +22,9 @@ menuOpenBtn.addEventListener('click', () => {
 })
 
 // TOP
-window.addEventListener('scroll', red)
+window.addEventListener('scroll', goToTop)
 
-function red(params) {
+function goToTop(params) {
    let scrollPositon = scrollY
    let top = document.querySelector('.top')
    if (scrollPositon > 100) {
