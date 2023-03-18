@@ -33,3 +33,21 @@ function goToTop(params) {
       top.classList.remove('top--active')
    }
 }
+let switchTheme = document.querySelectorAll('.theme-switch-btn ').forEach((e)=>{e.addEventListener('click',darkMode)})
+
+function darkMode(params) {
+
+   let contactLinks = document.querySelectorAll('.footer--contact-link')
+   let whiteSmokeColor = document.querySelectorAll('.--f6f6f6')
+   let activeLink = document.querySelectorAll('.--active-link')
+   let menuThemeSwitch = document.querySelector('.menu--theme-switch-btn')
+   
+   menuThemeSwitch.classList.toggle('--white-color')
+   whiteSmokeColor.forEach((e)=>e.classList.toggle('--nero'))
+   contactLinks.forEach((e)=>e.classList.toggle('--white-color'))
+   activeLink.forEach((e)=>e.classList.toggle('--white-color'))
+   menu.classList.toggle('dark-mode-menu')
+   bodyPage.classList.toggle('dark-mode')
+}
+
+
