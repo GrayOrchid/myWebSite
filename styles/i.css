@@ -7,10 +7,12 @@
 	font-family: 'Gilroy-Medium';
 	src: url('fonts/Gilroy-Medium.woff');
 }
+
 html {
 	scroll-behavior: smooth;
 }
-body{
+
+body {
 	font-family: 'Gilroy-Bold';
 	color: black;
 	background-color: white;
@@ -30,7 +32,7 @@ body{
 	transition: 0.5s;
 }
 
-.top--btn {
+.top__btn {
 	border: none;
 	cursor: pointer;
 	background: black;
@@ -43,21 +45,21 @@ body{
 	transition: 0.5s;
 }
 
-.top--btn:hover {
+.top__btn:hover {
 	background: blue;
 }
 
-.top--active {
+.top__active {
 	visibility: visible;
 	transform: translateY(0%);
 }
 
-.top--link {
+.top__link {
 	color: white;
 	width: 100%;
 }
 
-.menu--nav {
+.menu__nav {
 	height: 100%;
 }
 
@@ -76,7 +78,7 @@ body{
 	color: black;
 }
 
-.__container {
+.container {
 	width: 60%;
 }
 
@@ -87,24 +89,24 @@ body{
 	justify-content: center;
 }
 
-.header--content {
+.header__content {
 	height: 100%;
 	border-bottom: 1px solid #828282;
 	display: flex;
 }
 
-.header--navigation {
+.header__navigation {
 	width: 100%;
 }
 
-.header--navigation-items {
+.header__navigation-items {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 100%;
 }
 
-.header--navigation-link {
+.header__navigation-link {
 	font-size: 18px;
 	line-height: 22px;
 	color: #828282;
@@ -120,17 +122,19 @@ body{
 	height: 700px;
 }
 
-.homepage--content {
+.homepage__content {
 	width: 100%;
 }
-.homepage--theme-switch-btn {
+
+.homepage__theme-switch-btn {
 	font-size: 30px;
 }
-.theme-switch-btn{
-	/* s */
+
+.theme-switch-btn {
 	cursor: pointer;
 }
-.homepage--text-content {
+
+.homepage__text-content {
 	width: 100%;
 	height: 190px;
 	display: flex;
@@ -138,13 +142,13 @@ body{
 	justify-content: space-between;
 }
 
-.homepage--title {
+.homepage__title {
 	width: 80px;
 	font-size: 47px;
 	line-height: 59px;
 }
 
-.homepage--subtitle {
+.homepage__subtitle {
 	font-family: 'Gilroy-Medium';
 	font-weight: 500;
 	width: 175px;
@@ -160,22 +164,24 @@ body{
 
 
 
-.homepage--img {
+.homepage__img {
 	width: 100%;
 	height: 450px;
 }
 
-.homepage--media-acces-img {
+.homepage__media-acces-img {
 	display: none;
 }
-.--f6f6f6{
+
+.--f6f6f6 {
 	background-color: #f6f6f6;
 }
-.about {	
+
+.about {
 	height: 400px;
 }
 
-.about--content {
+.about__content {
 	height: 100%;
 	display: flex;
 	flex-flow: column;
@@ -184,14 +190,14 @@ body{
 	text-align: center;
 }
 
-.about--text-content {
+.about__text-content {
 	height: 350px;
 	display: flex;
 	flex-flow: column;
 	justify-content: space-around;
 }
 
-.about--subtitles {
+.about__subtitles {
 	height: 350px;
 	width: 100%;
 	display: flex;
@@ -214,7 +220,7 @@ body{
 	justify-content: center;
 }
 
-.skills--content {
+.skills__content {
 	height: 100%;
 	display: flex;
 	flex-flow: column;
@@ -223,11 +229,11 @@ body{
 	align-items: center;
 }
 
-.skills--subtitle {
+.skills__subtitle {
 	text-align: center;
 }
 
-.skills--items {
+.skills__items {
 	display: flex;
 	justify-content: space-between;
 	font-weight: 500;
@@ -243,12 +249,12 @@ body{
 	align-items: center;
 }
 
-.skills--img {
+.skills__img {
 	width: 88px;
 	height: 88px;
 }
 
-.skills--name {
+.skills__name {
 	left: 56.29%;
 	right: 38.22%;
 	top: 35.29%;
@@ -259,24 +265,24 @@ body{
 	color: #828282;
 }
 
-.protfolio {
+.portfolio {
 	background-color: #f6f6f6;
 	text-align: center;
 }
 
-.protfolio--content {
+.portfolio__content {
 	margin-top: 110px;
 }
 
-.protfolio--item {
+.portfolio__item {
 	margin-top: 50px;
 }
 
-.protfolio--item-img {
+.portfolio__item-img {
 	width: 100%;
 }
 
-.protfolio--item-name {
+.portfolio__item-name {
 	height: 200px;
 	display: flex;
 	align-items: center;
@@ -285,7 +291,7 @@ body{
 	font-size: 18px;
 }
 
-.protfolio--item-name-solid {
+.portfolio__item-name-solid {
 	width: 100%;
 	height: 1px;
 	background: black;
@@ -299,7 +305,7 @@ body{
 	height: 600px;
 }
 
-.footer--content {
+.footer__content {
 	display: flex;
 	justify-content: center;
 	flex-flow: column;
@@ -309,11 +315,11 @@ body{
 	text-align: center;
 }
 
-.footer--subtitle {
+.footer__subtitle {
 	width: 35%;
 }
 
-.footer--button {
+.footer__button {
 	height: 42px;
 	width: 150px;
 	border: none;
@@ -321,30 +327,35 @@ body{
 	background: black;
 	border-radius: 50px;
 }
-.footer--contact-phone {
+
+.footer__contact-phone {
 	font-size: 18px;
 	line-height: 22px;
 	color: white;
 }
 
-.footer--contacts {
+.footer__contacts {
 	width: 25%;
 	display: flex;
 	justify-content: space-around;
 }
 
-.footer--contact {
+.footer__contact {
 	font-size: 50px;
 }
-.footer--contact-link {
+
+.footer__contact-link {
 	transition: 0.4s;
 }
-.footer--contact-link:hover {
+
+.footer__contact-link:hover {
 	transform: translateY(-10%);
 }
+
 .fa-telegram:hover {
 	color: #0088cc;
 }
+
 .fa-vk:hover {
 	color: #5181b8;
 }
@@ -353,7 +364,7 @@ body{
 	display: none;
 }
 
-.menu--open {
+.menu__open {
 	display: none;
 }
 
@@ -366,12 +377,12 @@ body{
 		width: 80%;
 	}
 
-	.footer--contacts {
+	.footer__contacts {
 		width: 50%;
 		justify-content: space-between;
 	}
 
-	.homepage--img {
+	.homepage__img {
 		height: 300px;
 	}
 
@@ -393,36 +404,39 @@ body{
 		width: 80%;
 	}
 
-	.homepage--img {
+	.homepage__img {
 		height: 500px;
 	}
 
-	.homepage--text-content {
+	.homepage__text-content {
 		flex-flow: column;
 		text-align: start;
 		align-items: flex-start;
 		margin-top: 50px;
 	}
-	.homepage--subtitle {
+
+	.homepage-__ubtitle {
 		width: 55%;
 	}
 
-	.homepage--theme-switch-btn{
+	.homepage__theme-switch-btn {
 		display: none;
 		color: transparent;
 	}
-	.menu--theme-switch-btn{
-	color: black;
-	width: 100%;
-	text-align: center;
-	font-size: 50px;
-	margin-top: 50px;
-}
-	.homepage--img {
+
+	.menu__theme-switch-btn {
+		color: black;
+		width: 100%;
+		text-align: center;
+		font-size: 50px;
+		margin-top: 50px;
+	}
+
+	.homepage__img {
 		display: none;
 	}
 
-	.homepage--media-acces-img {
+	.homepage__media-acces-img {
 		display: initial;
 		margin-top: 20px;
 	}
@@ -439,14 +453,14 @@ body{
 		margin-top: 50px;
 	}
 
-	.skills--items {
+	.skills__items {
 		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 		margin-top: 50px;
 	}
 
-	.skills--img {
+	.skills__img {
 		width: 44px;
 		height: 44px;
 	}
@@ -455,28 +469,28 @@ body{
 		height: 150px;
 	}
 
-	.protfolio--item-img {
+	.protfolio__item-img {
 		width: 100%;
 		height: 200px;
 		margin-top: 10px;
 	}
 
-	.protfolio--item {
+	.protfolio__item {
 		margin-top: 20px;
 	}
 
-	.protfolio--item-name {
+	.protfolio__item-name {
 		margin-top: 0px;
 		height: 70px;
 		font-size: 12px;
 	}
 
-	.footer--contacts {
+	.footer__contacts {
 		margin: 0;
 		width: 50%;
 	}
 
-	.footer--contact {
+	.footer__contact {
 		font-size: 40px;
 	}
 
@@ -484,11 +498,11 @@ body{
 		width: 100%;
 	}
 
-	.menu--open-btn {
+	.menu__open-btn {
 		font-size: 30px;
 	}
 
-	.menu--open {
+	.menu__open {
 		display: initial;
 		position: absolute;
 		margin-left: 80%;
@@ -517,63 +531,69 @@ body{
 		overflow: hidden;
 	}
 
-	.menu--content {
+	.menu__content {
 		width: 100%;
 	}
 
-	.menu--nav {
+	.menu__nav {
 		width: 100%;
 		margin-top: 50px;
 		height: 200px;
 		font-size: 30px;
 	}
 
-	.menu--navigation-item {
+	.menu__navigation-item {
 		display: flex;
 	}
 
-	.menu--navigation-link {
+	.menu__navigation-link {
 		color: #828282;
 		font-size: 34px;
 		line-height: 42px;
 		margin: 1rem;
 	}
-	.--initial{
-	display: initial;
-	
+
+	.--initial {
+		display: initial;
+
 	}
+
 	.--active-link {
 		color: black;
 	}
 
-	.menu--close {
+	.menu__close {
 		font-size: 40px;
 		margin-left: 80%;
 		margin-top: 40px;
 		color: #828282;
 	}
 
-	.menu--close {
+	.menu__close {
 		margin-left: 80%;
 		margin-top: 20px;
 		position: absolute;
 	}
 }
 
-.--nero{
+.--nero {
 	background-color: #161616;
 }
-.--black{
+
+.--black {
 	background-color: black;
 }
-.dark-mode{
+
+.dark-mode {
 	color: white;
 	background: black;
 }
-.--white-color{
+
+.--white-color {
 	color: white;
 }
-.dark-mode-menu{
+
+.dark-mode-menu {
 	background-color: black;
 	color: white;
 }
